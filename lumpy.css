@@ -1,0 +1,43 @@
+body {
+	background-image: url("img/rainworld_epic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+h2 {
+  	color: #ff7700;
+	font-size: x-large;
+	text-align: center;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+div {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+img {
+	display: block;
+	margin-left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+a {
+	text-decoration: underline;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: #dddddd;
+}
+a:hover {
+	color: yellow;
+}
